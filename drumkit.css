@@ -1,0 +1,40 @@
+.key{
+	border: solid;
+	border-radius: 5px;
+	font-size: 10px;
+	text-align: center;
+	padding: 5px;
+	color: white;
+	width: 100px;
+	margin: 10px;
+	height:100px;
+	float: left;
+	transition: all 0.07s ease;
+}
+
+.keys{
+	margin-left: 50px;
+}
+
+body{
+	background-image: url('cover.jpg');
+}
+
+.playing{
+	transform: scale(1.1);
+	border-color: darkorange;
+	box-shadow: 0 0 1rem #ffc600;
+
+}
+kbd{
+	display: block;
+	color: white;
+	font-size: 50px;
+}
+
+.sound{
+	color: green;
+	font-size: 20px;
+}
+
+
